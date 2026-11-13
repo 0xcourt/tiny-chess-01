@@ -24,7 +24,8 @@ Original engine by @courtizen (0xcourt), MIT licensed.
   repetition inside a search line scores 0. Root falls back to the
   first legal move if the env disagrees about legality.
 - Source minified, lzma-compressed (FORMAT_ALONE, preset 9) and
-  base85-packed into `main.py` (3,902 bytes) with a one-line unpacker;
+  base85-packed into `main.py` (3,906 bytes) with a two-line unpacker
+  (line 1 the unpacker prefix, line 2 the packed blob);
   the uncompressed source is kept in the author's dev directory. No
   network, no files, no randomness — stdlib only.
 
